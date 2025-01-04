@@ -4,7 +4,8 @@ This project is a Python-based tool which generates a Spotify playlist with pers
 
 It connects user's top Spotify artists data with the more comprehensive MusicBrainz/ListenBrainz dataset, to fetch similar artists for each artist on user's list. ListenBrainz's similar artist designation is based on additional artists listened to by other users who also play the original seed artist in the same session. Subsequently the tool returns to Spotify API to extract each recommended artist's top song as a sample of their work and outputs a Spotify playlist, automatically added to user's library.
 
-
+## [🔗 Spotify playlist: Recommended artists 🧠](https://open.spotify.com/playlist/7JbjUVGzu2E6H8xffw4jzG?si=d92c9844dfb84b29)
+![Example image](recommended_artists_playlist_img.png)
 
 ## Features
 * Fetches user's top 100 artists from Spotify API
